@@ -1,0 +1,18 @@
+div {
+  margin: 0 5%;
+  padding-top: 2rem;
+}
+
+h1 {
+  color: linear-gradient(
+    90deg,
+    rgba(70, 24, 133, 1) 0%,
+    rgba(32, 32, 154, 1) 31%,
+    rgba(39, 7, 148, 1) 69%,
+    rgba(33, 2, 120, 1) 100%
+  );
+}
+
+h3 {
+  font-size: 64px;
+}

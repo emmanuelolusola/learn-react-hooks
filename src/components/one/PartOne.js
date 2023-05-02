@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+import "./partOne.css";
+
 const PartOne = () => {
   const [name] = useState("Emmanuel Olusola");
   return (
