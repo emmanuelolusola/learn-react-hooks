@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+import "./partTwo.css";
+
 const PartTwo = () => {
   const [count, setCount] = useState(1);
   const handleClick = () => {
@@ -10,7 +12,9 @@ const PartTwo = () => {
     <div>
       <h1>Update State Variable</h1>
       <h3>{count}</h3>
-      <button onClick={handleClick}>Add</button>
+      <button onClick={handleClick} className="click-button">
+        Add
+      </button>
     </div>
   );
 };
