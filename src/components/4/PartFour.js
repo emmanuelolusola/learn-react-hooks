@@ -22,7 +22,12 @@ const PartFour = () => {
         I'm a {level} level {department} student in {year}
       </h3>
       <div>
-        <button onClick={handleClick.bind(null, "level")}>Increment</button>
+        <button
+          onClick={handleClick.bind(null, "level")}
+          className="click-button"
+        >
+          Increment
+        </button>
       </div>
     </div>
   );

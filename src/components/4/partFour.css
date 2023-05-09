@@ -1,0 +1,16 @@
+.click-button {
+  color: #fff;
+  background-color: #0a2640;
+  border: none;
+  border-radius: 56px;
+  width: 210px;
+  height: 60px;
+  padding: 16px 56px 16px 56px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700;
+  gap: 8px;
+  margin-bottom: 2rem;
+}
