@@ -16,6 +16,7 @@ const App = () => {
       <PartThree />
       <hr />
       <PartFour />
+      <hr />
     </div>
   );
 };
